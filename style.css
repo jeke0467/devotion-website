@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+/* LEFT */
+.left {
+    flex: 2;
+    padding: 30px;
+    overflow-y: auto;
+}
+
+h1 {
+    color: #60a5fa;
+}
+
+/* RIGHT */
+.right {
+    flex: 1;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+/* SEARCH */
+input#searchInput {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.form input,
+.form textarea {
+    width: 100%;
+    margin: 6px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.form textarea {
+    height: 80px;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* CARD */
+.card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Devotions</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+    <!-- LEFT: DEVOTION LIST -->
+    <div class="left">
+
+        <h1>📖 My Devotions</h1>
+
+        <input type="text" id="searchInput" placeholder="Search devotion...">
+
+        <div id="devotionList"></div>
+
+    </div>
+
+    <!-- RIGHT: ADD FORM -->
+    <div class="right">
+
+        <h2>➕ Add Devotion</h2>
+
+        <div class="form">
+
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="verse" placeholder="Bible Verse">
+            <textarea id="content" placeholder="Devotion message"></textarea>
+
+            <button onclick="addDevotion()">Add Devotion</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
